@@ -12,7 +12,7 @@ Written 2026-11-17 (23:xx Asia/Baku, UTC+4) by the assistant ("Techno Songwriter
 - The assistant is "Techno Songwriter": Farid's creative lead for the catalog. It writes lyrics and production briefs, generates the songs in Suno, builds covers and videos, writes storytelling descriptions, uploads to YouTube Studio and reports to Farid.
 - **Goal:** build a growing, discoverable techno channel whose songs carry short story-driven lyrics about fear and liberation, a deceptive system and the North Pole as the exit from the matrix, then review performance and adjust.
 - **Phase 1 (test):** one new song per day for 2 weeks, **2026-11-05 to 2026-11-18**. After 2026-11-18 publishing pauses; the next job is a **performance review** (views, watch time per video) and a recommendation for the next cadence.
-- **Status on 2026-11-17 (end of day):** 23 songs are live (8 test-batch songs ~Oct 29, plus Glitch in the System and Wings of Air around Nov 4, plus one song per day Nov 5 to Nov 17). 43 catalog songs are unpublished. **The last scheduled run is 2026-11-18: Earth Mother (Afro Techno).**
+- **Status on 2026-11-18:** the 2-week daily test is **finished**. 24 songs are live (8 test-batch songs ~Oct 29, plus Glitch in the System and Wings of Air around Nov 4, plus one song per day Nov 5 to Nov 18). 42 catalog songs are unpublished. Every playlist has 3 songs live. **The last release was 2026-11-18: Earth Mother (Afro Techno).** Next job: performance review (section 6).
 
 ## 2. Farid's preferences and standing rules
 
@@ -42,7 +42,7 @@ Rules (all are standing and must be kept):
 |---|---|
 | YouTube channel | **Мu Zone** (Cyrillic М). Owned by Farid. Uploads via YouTube Studio in a browser. Studio often asks for **Google password re-verification** ("Verify it's you"): only Farid can do it, so he must complete it in the browser session (handoff). |
 | YouTube playlists | 8 existing playlists, named exactly after the catalog (below). Playlist URLs/IDs were not recorded: find them in Studio > Playlists. Playlist descriptions: `workflow/PLAYLIST_DESCRIPTIONS.md`. |
-| Suno | Farid's Suno account (suno.com). **The account/allowance is shared with another assistant, "Kids Songs Studio"**, which also downloads songs (its Twinklemere files also sit in the box's Downloads folder). Download allowance: **about 7 downloads were left on 2026-11-17 (after that day's download); the allowance renews 2026-11-28.** Counts dropped faster than this bot's own downloads because of the shared use. The current Suno model was "v6" from Nov 5 on. |
+| Suno | Farid's Suno account (suno.com). **The account/allowance is shared with another assistant, "Kids Songs Studio"**, which also downloads songs (its Twinklemere files also sit in the box's Downloads folder). Download allowance: **about 4 downloads were left on 2026-11-18 (counter showed 5 before that day's download); the allowance renews 2026-11-28.** Counts dropped faster than this bot's own downloads because of the shared use. The current Suno model was "v6" from Nov 5 on. |
 | Other bots | "Kids Songs Studio" (kids channel, shares Suno). Not part of this project. |
 | Where files lived | A Linux "box" (the assistant's computer): `/workspace/suno/` (per-song text), `/workspace/youtube/` (covers, videos, descriptions, scripts, `audio/`, `shorts/`, `story/`, `playlists/`), `/workspace/research/`, downloads in `/home/box/Downloads`. **None of the binaries (mp3/mp4/png) are in this repo**; see section 9. |
 | Credentials | None are stored in this repo. Any new tool needs Farid to sign in to Suno, YouTube Studio (Мu Zone) himself. |
@@ -58,9 +58,9 @@ Rules (all are standing and must be kept):
 | 5 | Dark Techno | Hypnotic, conspiratorial, shadows. | 8 | 3: Puppet Masters, Labyrinth Mind, Moon Eats the Sun |
 | 6 | Euphoric Techno | Uplifting, festival, liberation. | 9 (Lands Beyond moved here from High-Tech Minimal) | 3: Lands Beyond, Phoenix Protocol, Aurora Gate |
 | 7 | Ethnic Techno | Wider Middle East + Central Asia (Caucasus, Persian, Arabian, Anatolian, Silk Road). | 8 | 3: Land of Fire, Silk Road, Desert Djinn |
-| 8 | Afro Techno | Tribal, djembe, nature, ancestors. | 8 | 2: Shaman's Drum, Spirit of the Lion (Earth Mother due 2026-11-18 → 3) |
+| 8 | Afro Techno | Tribal, djembe, nature, ancestors. | 8 | 3: Shaman's Drum, Spirit of the Lion, Earth Mother |
 
-Total catalog: 8+8+8+9+8+9+8+8 = **66**. Live: **23** (24 after Earth Mother).
+Total catalog: 8+8+8+9+8+9+8+8 = **66**. Live: **24**.
 
 ## 5. Release log (every published video and Short)
 
@@ -91,11 +91,11 @@ Total catalog: 8+8+8+9+8+9+8+8 = **66**. Live: **23** (24 after Earth Mother).
 | 21 | 2026-11-15 | Moon Eats the Sun | Dark Techno | 126 BPM; eclipse myth; 3–4 s fade | https://www.youtube.com/watch?v=HbsFxsO0omM | https://www.youtube.com/shorts/B_Uv62XfMeY | version 2 (3:59; v1 `09592c00` 4:00): https://suno.com/song/a1213d7b-084d-4aed-bd33-d307cb54bbe3 |
 | 22 | 2026-11-16 | Aurora Gate | Euphoric Techno | 128 BPM; male/female duet + choir | https://www.youtube.com/watch?v=a6mA32FEMII | https://www.youtube.com/shorts/cujKSJfGNxk (45 s) | version 1 (3:59; v2 `0dd0a305` 3:59): https://suno.com/song/97c52ac0-f64c-455c-b00b-b11e0bc24737 |
 | 23 | 2026-11-17 | Desert Djinn | Ethnic Techno | 125 BPM, Arabic Hijaz scale; line "greed or courage?" | https://www.youtube.com/watch?v=QFca4U8GcPE | https://www.youtube.com/shorts/KWzXpNUUKw4 | version 1 (3:59; v2 `7db97cac` 3:56): https://suno.com/song/af960877-3fc5-4dd4-985d-8dec31b8077a |
-| 24 | **2026-11-18 (scheduled, last run)** | Earth Mother | Afro Techno | Not yet published at the time of writing | – | – | – |
+| 24 | 2026-11-18 (last run of the test) | Earth Mother | Afro Techno | 124 BPM (nudged); udu clay-pot drum, thumb-piano motif, women's choir; theme "we are all one"; natural fade, -14.3 LUFS. Studio first opened on the wrong channel ("Animated Tales 4 All"), a draft landed there and was **permanently deleted**; real upload on Мu Zone. Main video was published before YouTube's content checks finished (watch for any later restriction). No password re-check. | https://www.youtube.com/watch?v=gI3C8L5mVOc | https://www.youtube.com/shorts/JSRYnJFDDEw | version 1 (3:59; v2 `02d3665b` 4:00): https://suno.com/song/b3ba5b04-00ac-4923-9b21-d9e58ef47a17 |
 
 Typical rule applied to choosing a version: both versions are inside 2:30–4:30 → take the one closest to ~3:15; if equal, take the first; verify with ffmpeg (see section 7). Only the chosen one is downloaded (saves allowance).
 
-Suno download allowance trail ("downloads left until Nov 28"): Nov 6: 39 → Nov 7: 37 → Nov 8: 35/36 → Nov 9: 24 → Nov 10: ~22 → Nov 11: ~21 → Nov 12: 18 → Nov 13: ~17 → Nov 15: 12 before / ~11 after → Nov 16: 11 before / ~10 after → Nov 17: 8 before / **~7 after**. After the test there is little room for daily releases until the allowance renews on Nov 28.
+Suno download allowance trail ("downloads left until Nov 28"): Nov 6: 39 → Nov 7: 37 → Nov 8: 35/36 → Nov 9: 24 → Nov 10: ~22 → Nov 11: ~21 → Nov 12: 18 → Nov 13: ~17 → Nov 15: 12 before / ~11 after → Nov 16: 11 before / ~10 after → Nov 17: 8 before / ~7 after → Nov 18: 5 before / **~4 after**. After the test there is little room for daily releases until the allowance renews on Nov 28.
 
 ### Per-playlist live counts
 
@@ -103,10 +103,10 @@ See the table in section 4. Order of "fewest songs live first" was used for pick
 
 ## 6. What's next
 
-1. **2026-11-18 (last run of the test): Earth Mother, Afro Techno** (catalog song 3 on the Afro page; "Roots under the ground connect every living thing... Choir of women, harmonised chants"). Lyrics/brief: `catalog/08_afro_techno.md`. Follow `workflow/DAILY_ROUTINE.md`. Publish (video + Short if practical), tell Farid.
+1. ~~2026-11-18: Earth Mother, Afro Techno~~ **Done** (published with Short; see release log #24).
 2. **After 2026-11-18: do NOT publish.** Pause the automation, collect performance numbers for **all** videos on the channel from YouTube Studio (views, watch time, plus Shorts views, subscribers), summarise them for Farid, and give a recommendation for the next cadence (e.g. fewer songs per week, more Shorts/long mixes, drop weak sub-genres). **No performance data has been collected yet.**
-3. Constraint on the recommendation: the shared Suno allowance (~7 downloads until Nov 28) limits new songs.
-4. Next unpublished songs per playlist (catalog order), if publishing resumes: High-Tech Minimal → Sand Clock; Melodic → Ocean Within; Peak-Time → Run, Wolf, Run; Japanese → Katana Forge (skipped; see open items) then Bamboo Storm; Dark → Shadow Self; Euphoric → Free Mid-Fall; Ethnic → Sufi Spin (handle respectfully, see master catalog caution); Afro → Rain Dance (after Earth Mother).
+3. Constraint on the recommendation: the shared Suno allowance (~4 downloads until Nov 28) limits new songs.
+4. Next unpublished songs per playlist (catalog order), if publishing resumes: High-Tech Minimal → Sand Clock; Melodic → Ocean Within; Peak-Time → Run, Wolf, Run; Japanese → Katana Forge (skipped; see open items) then Bamboo Storm; Dark → Shadow Self; Euphoric → Free Mid-Fall; Ethnic → Sufi Spin (handle respectfully, see master catalog caution); Afro → Rain Dance. If daily releases resume, the rotation continues with **High-Tech Minimal song 4 (Sand Clock)**.
 5. Older offers/ideas: 3–4 Shorts per week from released songs; long mix video per playlist at ~8 songs (none of the playlists has 8 yet).
 
 ## 7. End-to-end production workflow
@@ -135,7 +135,7 @@ Catalog → Suno → download → ffmpeg checks → cover → video → descript
 - **Suno Download button stays grey (Cloudflare Turnstile).** On Nov 8 and Nov 9 the "Unlock & Download" button never enabled in the assistant's browser (Turnstile check failing silently), so Farid downloaded via handoff. After Farid signed out and back into Suno (Nov 9) the button works: it enables after clicking **MP3 a second time** (verified on a free re-download of Silk Road, then used successfully from Nov 10 to Nov 17; on Nov 13 the MP3 button even enabled on the first click).
 - **Suno Duration "Auto" gives ~1:59 songs.** Set **Custom length** under Create > Advanced > More Options (4:00 gives ~3:59). From Nov 10 on, every generation used Custom 4:00.
 - **Studio Google password re-verification** ("Verify it's you") appears often; the assistant can't enter the password; Farid must do it (the shared browser was handed over for that). Nothing is stored in this repo.
-- **Suno allowance is shared with the Kids Songs Studio bot**, so counts fall faster than own downloads (e.g. 21 → 18 on Nov 12 after one download). ~7 left on Nov 17; renews Nov 28.
+- **Suno allowance is shared with the Kids Songs Studio bot**, so counts fall faster than own downloads (e.g. 21 → 18 on Nov 12 after one download). ~4 left on Nov 18; renews Nov 28.
 - **ffmpeg: never use `-shortest`** with the still-image loop: use `-t <duration>` instead.
 - Suno may emit versions over 4:30 (e.g. 4:49 on Nov 12) — that's out of range; take the other version.
 - The assistant cannot listen to audio. Quality control is by duration + ffmpeg measurements only. No human listening review was done by the assistant.
@@ -190,3 +190,5 @@ research/techno_notes.md       sub-genre research notes (Peak-Time, Dark, Euphor
 - No channel statistics (views, watch time, subscribers) were collected.
 - The Short-building ffmpeg command wasn't saved (only the resulting specs).
 - The test-batch Suno model version and exact settings were not recorded (later songs: Suno v6 with Custom 4:00 duration).
+
+- **Watch out (2026-11-18):** YouTube Studio may open on another channel of the same Google account ("Animated Tales 4 All", used by the Kids Songs Studio bot). Always confirm the channel is **Мu Zone** before uploading.
